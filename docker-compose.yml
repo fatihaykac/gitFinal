@@ -6,9 +6,9 @@ services:
       - ALLOW_EMPTY_PASSWORD=yes
       - MARIADB_HOST=db
       - MARIADB_PORT_NUMBER=3306
-      - MARIADB_USER=your_username
-      - MARIADB_PASSWORD=your_password
-      - MARIADB_DATABASE=drupal_database
+      - MARIADB_USER=YAM428
+      - MARIADB_PASSWORD=30717020
+      - MARIADB_DATABASE=final
     depends_on:
       - db
     ports:
